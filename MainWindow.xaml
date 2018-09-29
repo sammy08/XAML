@@ -1,0 +1,21 @@
+﻿<Window x:Class="HelloWord.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:HelloWord"
+        mc:Ignorable="d"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        TextElement.Foreground="{DynamicResource MaterialDesignBody}"
+        TextElement.FontWeight="Thin"
+        TextElement.FontSize="26"
+        TextOptions.TextFormattingMode="Ideal" 
+        TextOptions.TextRenderingMode="Auto"        
+        Background="{DynamicResource MaterialDesignPaper}"
+        FontFamily="{DynamicResource MaterialDesignFont}"
+        Title="Aula01 Hello Word" Height="450" Width="800" Foreground="#DD000000">
+    <Grid>
+        <TextBlock Foreground="#DD661BD3" FontSize="36">Xaml Forms</TextBlock>
+        <Button HorizontalAlignment="Center" FontWeight="Medium" Margin="371.885,186,322.885,182" Width="97.23" Height="50.27">Start</Button>
+    </Grid>
+</Window>
