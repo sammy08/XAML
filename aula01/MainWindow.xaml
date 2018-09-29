@@ -1,0 +1,22 @@
+﻿<Window x:Class="Aula02.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Aula02"
+        mc:Ignorable="d"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        TextElement.Foreground="{DynamicResource MaterialDesignBody}"
+        TextElement.FontWeight="Regular"
+        TextElement.FontSize="13"
+        TextOptions.TextFormattingMode="Ideal" 
+        TextOptions.TextRenderingMode="Auto"        
+        Background="{DynamicResource MaterialDesignPaper}"
+        FontFamily="{DynamicResource MaterialDesignFont}"
+        Title="Aula02" Height="572.024" Width="310.807" WindowStartupLocation="CenterScreen">
+    <Grid Margin="0,0,2,3">
+        <TextBlock FontSize="26" FontWeight="Thin" Foreground="#FF23B86D" Margin="10" HorizontalAlignment="Center">Material Design</TextBlock>
+        <Rectangle Height="30" Width="30" VerticalAlignment="Bottom" Fill="#FF8F2F8B"></Rectangle>
+        <RadioButton VerticalAlignment="Center" HorizontalAlignment="Left"  Margin="10" Width="100" Background="#FF3F148B" >Option One</RadioButton>
+    </Grid>
+</Window>
